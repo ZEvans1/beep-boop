@@ -19,13 +19,15 @@ _A number thats meet all three of the above conditions (108, for example contain
 | **Counts up to a number from 0** | 5 | [0, 1, 2, 3 ,4 ,5] |
 | **Finds 0 within a number**| 20 | 0 |
 | **Finds 1 within a number**| 14 | 1 |
-| **Replaces numbers containing 0 with "Beep"**| 20 | "Beep!" |
-| **Replaces numbers containing 1 with "Beep"**| 14 | "Boop!" |
+| **Finds numbers divisible by 3**| [1, 2, 3] | 3 |
+| **Replaces numbers containing 0 with a string**| 20 | "string1" |
+| **Replaces numbers containing 1 with a string**| 14 | "string2" |
+| **Replaces numbers divisible by 3 with a string**| 3 | "string3" |
 
 
 ## Setup/Installation Requirements
 
-* _This project can be accessed [here](https://github.com/ZEvans1/track-suggester.git)_
+* _This project can be accessed [here](https://github.com/ZEvans1/beep-boop.git)_
 * _Clone the repository to your machine_
 * _Open in a web browser (was made with Chrome)_
 

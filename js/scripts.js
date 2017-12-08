@@ -1,21 +1,17 @@
-//front end
+//front end----------------------
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     var userInput = $("#input").val();
     var number = parseInt(userInput);
-    // console.log(userInput);
-    // console.log(numbers);
     var numbers = countTo(number);
-    var output = replace(numbers);
+    replace(numbers);
     check(number);
     $("#result").text(numbers.join(' '));
-    console.log(numbers);
-    console.log(output);
-    //var numbers = userInput.split('');
   });
 });
-//back end
+//back end-----------------------
+//checks if number is not negative
 function check(number) {
   if (number < 0) {
     return false;
@@ -23,7 +19,7 @@ function check(number) {
     return true;
   }
 }
-
+//makes an array of numbers: 0 up to the specified number
 function countTo(number) {
   var numberList = [];
   for (var i = 0; i <= number; i++) {
@@ -32,9 +28,8 @@ function countTo(number) {
   return numberList;
 };
 
+//replaces numbers based on criteria, 0, 1, or divisible by 3
 function replace(numbers) {
-  //var numbersStr
-  debugger;
   var cases = ["Beep!", "Boop!", "'I'm sorry, Dave. I'm afraid I can't do that.'"];
   for (var i = 0; i < numbers.length; i++) {
     var str = numbers[i].toString();
@@ -48,4 +43,3 @@ function replace(numbers) {
     };
     return
   };
-  //return numbers;
