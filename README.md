@@ -16,9 +16,12 @@ _A number thats meet all three of the above conditions (108, for example contain
 ### Specs
 | Behavior | Input | Output |
 | :-------------     | :------------- | :-------------
-| **Counts up to a number** | 5 | [1, 2, 3 ,4 ,5] |
-| **Replaces numbers containing 0 with "Beep"**| "20" | "Beep!" |
-| **Replaces numbers containing 1 with "Beep"**| "1" | "Boop!" |
+| **Counts up to a number from 0** | 5 | [0, 1, 2, 3 ,4 ,5] |
+| **Finds 0 within a number**| 20 | 0 |
+| **Finds 1 within a number**| 14 | 1 |
+| **Replaces numbers containing 0 with "Beep"**| 20 | "Beep!" |
+| **Replaces numbers containing 1 with "Beep"**| 14 | "Boop!" |
+
 
 ## Setup/Installation Requirements
 
