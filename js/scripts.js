@@ -8,15 +8,25 @@ $(document).ready(function() {
     // console.log(numbers);
     var numbers = countTo(number);
     var output = replace(numbers);
+    check(number);
+    $("#result").text(numbers.join(' '));
     console.log(numbers);
     console.log(output);
     //var numbers = userInput.split('');
   });
 });
 //back end
+function check(number) {
+  if (number < 0) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
 function countTo(number) {
   var numberList = [];
-  for (var i = 1; i <= number; i++) {
+  for (var i = 0; i <= number; i++) {
   	numberList.push(i);
   };
   return numberList;
@@ -25,7 +35,7 @@ function countTo(number) {
 function replace(numbers) {
   //var numbersStr
   debugger;
-  var cases = ["Beep!", "Boop!", "I'm sorry Dave"];
+  var cases = ["Beep!", "Boop!", "'I'm sorry, Dave. I'm afraid I can't do that.'"];
   for (var i = 0; i < numbers.length; i++) {
     var str = numbers[i].toString();
     if (str.includes('0')) {
@@ -36,5 +46,6 @@ function replace(numbers) {
       numbers[i] = cases[2];
     }
     };
+    return
   };
   //return numbers;
