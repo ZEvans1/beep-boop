@@ -21,8 +21,8 @@ _Although there are numbers that meet all 3 conditions (for example, 108 contain
 | **Finds 0 within a number**| 20 | 0 |
 | **Finds 1 within a number**| 14 | 1 |
 | **Finds numbers divisible by 3**| [1, 2, 3] | 3 |
-| **Replaces numbers containing 0 with a string**| 20 | "Boop!" |
-| **Replaces numbers containing 1 with a string**| 14 | "Beep!" |
+| **Replaces numbers containing 0 with a string**| 20 | "Beep!" |
+| **Replaces numbers containing 1 with a string**| 14 | "Boop!" |
 | **Replaces numbers divisible by 3 with a string**| 3 | "I'm sorry, Dave. I'm afraid I can't do that." |
 
 
