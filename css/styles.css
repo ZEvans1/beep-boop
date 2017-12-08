@@ -1,3 +1,18 @@
 body {
   text-align: center;
+  background-color: #464749;
+  color: #fcfcfc;
+}
+
+#text {
+  text-align: left;
+  font-size: 18px;
+}
+
+#input {
+  color: black;
+}
+
+#result {
+  text-align: left;
 }
